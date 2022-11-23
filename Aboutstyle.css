@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'lato' , sans-serif;
+}
+
+body {
+  display: flex;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+:root {
+  --primary-orange: #f75d44;
+  --primary-orange-2: #f25f33;
+  --primary-gray: #444140;
+  --primary-main: #272a32;
+}
+
+.main {
+  width: 100%;
+}
+
+header {
+    width: 490px;
+    height: 96px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+}
+
+.mobile-version {
+  display: flex;
+}
+
+.visible {
+  display: none;
+}
+
+.close {
+  display: flex;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+
+.desktop-version {
+  display: none;
+}
+
+.show {
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: var(--primary-orange-2);
+  height: 100vh;
+  width: 100%;
+  transition: 1s all 1s ;
+}
+
+.show ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 9rem;
+    margin-left: 6rem;
+    list-style: none;
+    color: white;
+}
+
+.show ul li {
+  margin-bottom: 1.4rem;
+  font-size: 2rem;
+}
+
+.logo {
+  margin: 20%;
+}
+
+.logo img {
+  width: 9rem;
+  height: 2rem;
+}
+
+.Home-1 {
+  font-family: 'lato', sans-serif;
+  width: 490px;
+  height: 521px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.Home-Back {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.Home-1-h2 {
+  color: var(--primary-orange);
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.Home-1 h1 {
+  color: var(--primary-orange-2);
+  font-size: 2.8rem;
+  line-height: 2.8rem;
+  font-family: 'COCOGOOSE', sans-serif;
+  padding-bottom: 18px;
+  margin-top: 1rem;
+}
+
+.Home-1 :nth-child(3) {
+  width: 90%;
+  border: 1px solid #fafafa;
+  background-color: #f7f7f7;
+  padding: 10px 2px;
+  margin-top: 1rem;
+  margin-left: 5%;
+}
+
+.Home-1 :nth-child(4) {
+  color: #606060;
+  margin: 10px 0;
+}
+
+.Home-1 :nth-child(5) {
+  color: #606060;
+  text-decoration: none;
+}
+
+.Home-1 :nth-child(5):hover {
+  text-decoration: underline;
+}
+
+.Home-1 :nth-child(5) {
+  color: var(--primary-gray);
+}
+
+.main-page {
+  text-align: center;
+  padding: 0 5% 0 7%;
+}
+
+.main-page-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+.border {
+    width: 4rem;
+    height: 2px;
+    margin: 10px 20%;
+    border-bottom: 1px solid var(--primary-orange-2);
+}
+
+.card-1 {
+  margin-top: 12px;
+  width: 458px;
+  height: 260px;
+  background-image: url(./Img/Image-required/marvel-s-spider-man-remastered_.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 86% 46px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.card-1-m {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(224, 104, 104, 0.6);
+}
+
+.card-1-m:hover {
+  background-color: transparent;
+}
+
+.card-1-m h1 {
+  position: relative;
+  left: 0;
+  top: 11px;
+  bottom: -17px;
+}
+
+.card-1-m p {
+  position: relative;
+  left: 0;
+  top: 11px;
+}
+
+.card-2 {
+  width: 458px;
+  height: 260px;
+  margin-top: 12px;
+  background-image: url(./Img/Image-required/nba.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 10rem;
+}
+
+.partner {
+    width: 490px;
+    height: 220px;
+    background-color: #474051;
+  }
+  
+  .partner h3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  
+  .Partner-logo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 9rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 1.2rem;
+  }
+  
+  .Partner-logo li {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .nav-bar li a {
+    text-decoration: none;
+    color: black;  
+}
+  
+.Partner-logo li img {
+  width: 5.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+      background-position: 24px 57px;
+      background-size: cover;
+    }
+    
+    header {
+        width: 100%;
+        background-color: #fff;
+    }
+    header nav {
+      width: 100%;
+    }
+
+    .logo{
+     margin: 0;
+    }
+    .mobile-version  {
+      display: none;
+    }
+    .desktop-version{
+      display: flex;
+      width: 100%;
+    }
+   .nav-bar {
+     display: flex;
+     width: 100%;
+     background-color: #fff;
+     color: var(--primary-gray);
+     font-family: 'lato', sans-serif;
+     justify-content: flex-end;
+     list-style: none;
+   }
+   .nav-bar li {
+    padding: 0 1rem;
+   }
+   .close {
+    display: none;
+   }
+   .Home-1 {
+    width: 100%;
+    height: 517px;
+   }
+   .Home-1 h1 {
+      font-size: 3.5rem;
+      line-height: 3rem;
+   }
+    .Home-1 :nth-child(3) {
+      width: 39rem;
+      margin-left: 7%;
+      padding: 22px;
+      border: 1px solid #e6e6e6;
+      background: white;
+      font-family: 'lato', sans-serif;
+    }
+
+    .main-page-1 p{
+      margin-bottom: 1rem;
+    }
+
+    .border {
+      margin: 10px 37%;
+    }
+
+    .card {
+      display: flex;
+      gap: 12px;
+    }
+
+    .partner {
+      width: 100%;
+    }
+
+    .border-dir {
+      margin: 10px 45%;
+    }
+   }
+
+   @media screen and (min-width: 1000px) {
+    .Home-1 :nth-child(3){
+      margin-left: 18%;
+    }
+   }
