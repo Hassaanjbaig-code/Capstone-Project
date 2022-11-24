@@ -467,7 +467,7 @@ header {
   }
 
   .logo {
-    margin-left: 16rem;
+    margin-left: 6rem;
   }
 
   .close {
@@ -490,7 +490,7 @@ header {
 
   .desktop-version {
     display: flex;
-    width: 100%;
+    width: 55%;
   }
 
   .card {
