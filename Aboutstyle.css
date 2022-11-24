@@ -10,8 +10,6 @@
 body {
   display: flex;
   box-sizing: border-box;
-
-  /* overflow: hidden; */
 }
 
 :root {
@@ -47,6 +45,20 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+#close {
+  font-size: 55px;
+  color: #444140;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#menu {
+  font-size: 55px;
+  color: #444140;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .desktop-version {
