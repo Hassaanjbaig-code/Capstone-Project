@@ -26,7 +26,7 @@ body {
 }
 
 header {
-  width: 490px;
+  width: 100%;
   height: 96px;
   background: transparent;
   display: flex;
@@ -96,8 +96,8 @@ header {
 
 .Home-1 {
   font-family: 'lato', sans-serif;
-  width: 490px;
-  height: 521px;
+  width: 100%;
+  height: 39%;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #e6e6e6;
@@ -151,7 +151,7 @@ header {
 
 .main-page {
   text-align: center;
-  padding: 0 5% 0 7%;
+  width: 100%;
 }
 
 .main-page-1 {
@@ -168,9 +168,15 @@ header {
   border-bottom: 1px solid var(--primary-orange-2);
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .card-1 {
   margin-top: 12px;
-  width: 458px;
+  width: 55vh;
   height: 260px;
   background-image: url(./Img/Image-required/marvel-s-spider-man-remastered_.jpg);
   background-repeat: no-repeat;
@@ -209,7 +215,7 @@ header {
 }
 
 .card-2 {
-  width: 458px;
+  width: 55vh;
   height: 260px;
   margin-top: 12px;
   background-image: url(./Img/Image-required/nba.jpg);
@@ -220,7 +226,7 @@ header {
 }
 
 .partner {
-  width: 490px;
+  width: 100%;
   height: 220px;
   background-color: #474051;
 }
@@ -341,5 +347,53 @@ header {
 @media screen and (min-width: 1000px) {
   .Home-1 :nth-child(3) {
     margin-left: 18%;
+  }
+
+  .main-page {
+    height: 38%;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 12px;
+  }
+
+  .card-1 {
+    width: 59vh;
+    height: 260px;
+    margin: 0 1.5rem 0 0;
+  }
+
+  .card-2 {
+    width: 59vh;
+    height: 260px;
+    margin: 0 1.5rem 0 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-page {
+    height: 52%;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-1 {
+    width: 59vh;
+    height: 36vw;
+    margin: 0 1.5rem 0 0;
+  }
+
+  .card-2 {
+    width: 59vh;
+    height: 36vw;
+    margin: 0 1.5rem 0 0;
   }
 }
