@@ -21,7 +21,7 @@
 }
 
 header {
-  width: 490px;
+  width: 377px;
   height: 96px;
   background: transparent;
   display: flex;
@@ -110,17 +110,16 @@ header {
 }
 
 .logo {
-  margin: 20%;
+  margin-left: 11rem;
 }
 
 .Home-1 {
   font-family: 'lato', sans-serif;
-  width: 490px;
+  width: 473px;
   height: 422px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 12px;
 }
 
 .Home-1-h2 {
@@ -228,8 +227,8 @@ header {
 }
 
 .imagediv {
-  background-image: url(./Img/Image-required/checked.png);
-  background-size: 50% 50%;
+  background-image: url(./Img/Image-required/pngegg.png);
+  background-repeat: round;
   width: 7rem;
   height: 6rem;
 }
@@ -318,6 +317,10 @@ header {
   display: none;
 }
 
+.card-none {
+  display: none;
+}
+
 .displaycard {
   display: flex;
   flex-direction: column;
@@ -343,34 +346,20 @@ header {
   }
 
   .logo {
-    margin: 0;
+    margin-right: 9rem;
   }
 
   .mobile-version {
+    display: flex;
+    margin-left: 6rem;
+  }
+
+  /* .desktop-version {
     display: none;
-  }
-
-  .desktop-version {
-    display: flex;
-    width: 100%;
-  }
-
-  .nav-bar {
-    display: flex;
-    width: 100%;
-    background-color: #fff;
-    color: var(--primary-gray);
-    font-family: 'lato', sans-serif;
-    justify-content: flex-end;
-    list-style: none;
-  }
+  } */
 
   .nav-bar li {
     padding: 0 1rem;
-  }
-
-  .close {
-    display: none;
   }
 
   .Home-1 {
@@ -402,13 +391,13 @@ header {
   }
 
   .card-1 {
-    height: 18rem;
+    height: 17rem;
     display: grid;
     grid-template-columns: none;
     grid-template-rows: 4rem 5rem 6rem;
     justify-items: center;
     margin: 0;
-    width: 17rem;
+    width: 10.6rem;
     padding: 10px;
   }
 
@@ -428,6 +417,10 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .displaycard {
+    display: flex;
   }
 
   .left {
@@ -460,8 +453,54 @@ header {
     display: none;
   }
 
+  .card-none {
+    display: none;
+  }
+
   .leftmaincard {
     display: flex;
     flex-direction: column;
+  }
+
+  .border {
+    margin: 10px 46%;
+  }
+
+  .logo {
+    margin-left: 16rem;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .nav-bar {
+    width: 92%;
+    display: flex;
+    background-color: #fff;
+    color: var(--primary-gray);
+    font-family: 'lato', sans-serif;
+    justify-content: flex-end;
+    list-style: none;
+  }
+
+  .mobile-version {
+    display: none;
+  }
+
+  .desktop-version {
+    display: flex;
+    width: 100%;
+  }
+
+  .card {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 4rem 0 0 0;
+  }
+
+  .card-1 {
+    width: 10.5rem;
   }
 }

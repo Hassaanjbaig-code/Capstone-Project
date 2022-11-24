@@ -140,13 +140,13 @@ buttonless.appendChild(buttonlessimg);
 
 button.addEventListener('click', () => {
   leftmaincard.classList.add('displaycard');
-  button.style.display = 'none';
+  button.classList.add('card-none');
   buttonless.style.display = 'flex';
 });
 
 buttonless.addEventListener('click', () => {
   leftmaincard.classList.remove('displaycard');
-  button.style.display = 'flex';
+  button.classList.remove('card-none');
   buttonless.style.display = 'none';
 });
 
