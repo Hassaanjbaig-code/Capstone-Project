@@ -2,37 +2,37 @@ const featuredGames = [
   {
     title: 'Marvel’s Spider-Man: Miles Morales',
     caption: 'New Sipder man Miles Maraler as a Super Hero',
-    desc: 'Miles Morales discovers explosive powers that set him apart from his mentor, Peter Parker. Master his unique, bio-electric venom blast attacks and covert camouflage power alongside spectacular web-slinging acrobatics, gadgets and skills.',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque error earum minus aliquam obcaecati',
     thumbnail: './Img/Image-required/miles-morales-with-cat-4k_320x480.jpg',
   },
   {
     title: 'Far Cry 6',
     caption: 'New Advantage game, A real World game',
-    desc: 'Far Cry® 6 thrusts players into the adrenaline-filled world of a modern-day guerrilla revolution. As dictator of Yara, Antón Castillo is intent on restoring his nation back to its former glory by any means, with his son, Diego, dutifully at his side. Become a guerrilla fighter and burn their regime to the ground.',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque error earum minus aliquam obcaecati',
     thumbnail: './Img/Image-required/far-cry-6-hd-gaming-cool.jpg',
   },
   {
     title: 'FIFA 22',
     caption: 'FIFA 22 is a football simulation video game.',
-    desc: 'Live out your football dreams in FIFA 22 Career Mode as you create a club and lead them from relegation candidates to global giants',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque error earum minus aliquam obcaecati',
     thumbnail: './Img/Image-required/fifa-22.jpg',
   },
   {
     title: 'Deathloop',
     caption: 'An assassin stuck in a time loop',
-    desc: 'In Deathloop, the player takes on the role of Colt, an assassin stuck in a time loop who has been tasked to take out eight targets called Visionaries across the island of Blackreef before midnight.',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque error earum minus aliquam obcaecati',
     thumbnail: './Img/Image-required/images.jpg',
   },
   {
     title: 'Ratchet & Clank: Rift Apart',
     caption: ' third-person shooter platform game',
-    desc: 'Go dimension-hopping with Ratchet and Clank as they take on an evil emperor from another reality. Jump between action-packed worlds, and beyond at mind-blowing speeds',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque error earum minus aliquam obcaecati',
     thumbnail: './Img/Image-required/ratchet-and-clank-rift-apart-ps5.jpg',
   },
   {
     title: 'HORIZON FORBIDDEN WEST',
     caption: 'True open world adventure genre ',
-    desc: 'Horizon Forbidden West is an action role-playing game played from a third-person perspective. The player controls Aloy, a hunter in a world populated by dangerous, animalistic machines',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque error earum minus aliquam obcaecati',
     thumbnail: './Img/Image-required/horizon-forbiddenjpg.jpg',
   },
 ];
