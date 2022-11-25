@@ -32,8 +32,6 @@ header {
   height: 96px;
   background: transparent;
   display: flex;
-
-  /* align-items: center; */
 }
 
 .header-block {
@@ -164,8 +162,6 @@ header {
 
 .Home-1 :nth-child(3) {
   border: 1px solid #fff;
-
-  /* background-color: #f7f7f7; */
   padding: 10px 2px;
 }
 
@@ -568,8 +564,6 @@ header {
 
   .desktop-version {
     display: flex;
-
-    /* width: 55%; */
   }
 
   .card {
