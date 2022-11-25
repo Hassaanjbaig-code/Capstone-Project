@@ -79,7 +79,7 @@ After you're finished please remove all the comments and instructions!
 
 > This is the link for live preview
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://hassaanjbaig-code.github.io/Capstone-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,12 +93,9 @@ To get a local copy up and running, follow these steps.
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
---->
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/Hassaanjbaig-code/Capstone-Project.git
 ```
 -
 
