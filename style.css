@@ -512,7 +512,7 @@ header {
     width: 100%;
     justify-content: center;
     flex-direction: row;
-    gap: 24px;
+    gap: 92px;
   }
 
   .buttonless {
